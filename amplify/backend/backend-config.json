@@ -7,7 +7,7 @@
             "UserPoolId"
           ],
           "category": "auth",
-          "resourceName": "todo520c3c0d"
+          "resourceName": "todo72743dbe"
         }
       ],
       "output": {
@@ -16,7 +16,7 @@
           "defaultAuthentication": {
             "authenticationType": "AMAZON_COGNITO_USER_POOLS",
             "userPoolConfig": {
-              "userPoolId": "authtodo520c3c0d"
+              "userPoolId": "authtodo72743dbe"
             }
           }
         }
@@ -26,7 +26,7 @@
     }
   },
   "auth": {
-    "todo520c3c0d": {
+    "todo72743dbe": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -54,7 +54,7 @@
     }
   },
   "function": {
-    "todo9254cd59": {
+    "todo75cf032a": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
@@ -68,19 +68,19 @@
     }
   },
   "parameters": {
-    "AMPLIFY_function_todo9254cd59_deploymentBucketName": {
+    "AMPLIFY_function_todo75cf032a_deploymentBucketName": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "todo9254cd59"
+          "resourceName": "todo75cf032a"
         }
       ]
     },
-    "AMPLIFY_function_todo9254cd59_s3Key": {
+    "AMPLIFY_function_todo75cf032a_s3Key": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "todo9254cd59"
+          "resourceName": "todo75cf032a"
         }
       ]
     },

@@ -20,7 +20,7 @@ export const createUser = /* GraphQL */ `
       __typename
     }
   }
-`
+`;
 export const updateUser = /* GraphQL */ `
   mutation UpdateUser(
     $input: UpdateUserInput!
@@ -40,7 +40,7 @@ export const updateUser = /* GraphQL */ `
       __typename
     }
   }
-`
+`;
 export const deleteUser = /* GraphQL */ `
   mutation DeleteUser(
     $input: DeleteUserInput!
@@ -60,7 +60,7 @@ export const deleteUser = /* GraphQL */ `
       __typename
     }
   }
-`
+`;
 export const createTodo = /* GraphQL */ `
   mutation CreateTodo(
     $input: CreateTodoInput!
@@ -70,7 +70,6 @@ export const createTodo = /* GraphQL */ `
       id
       todoName
       ownerID
-
       sharedWith
       type
       createdAt
@@ -78,7 +77,7 @@ export const createTodo = /* GraphQL */ `
       __typename
     }
   }
-`
+`;
 export const updateTodo = /* GraphQL */ `
   mutation UpdateTodo(
     $input: UpdateTodoInput!
@@ -88,7 +87,6 @@ export const updateTodo = /* GraphQL */ `
       id
       todoName
       ownerID
-
       sharedWith
       type
       createdAt
@@ -96,7 +94,7 @@ export const updateTodo = /* GraphQL */ `
       __typename
     }
   }
-`
+`;
 export const deleteTodo = /* GraphQL */ `
   mutation DeleteTodo(
     $input: DeleteTodoInput!
@@ -106,7 +104,6 @@ export const deleteTodo = /* GraphQL */ `
       id
       todoName
       ownerID
-
       sharedWith
       type
       createdAt
@@ -114,4 +111,4 @@ export const deleteTodo = /* GraphQL */ `
       __typename
     }
   }
-`
+`;

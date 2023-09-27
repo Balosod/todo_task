@@ -20,7 +20,7 @@ export const onCreateUser = /* GraphQL */ `
       __typename
     }
   }
-`
+`;
 export const onUpdateUser = /* GraphQL */ `
   subscription OnUpdateUser(
     $filter: ModelSubscriptionUserFilterInput
@@ -40,7 +40,7 @@ export const onUpdateUser = /* GraphQL */ `
       __typename
     }
   }
-`
+`;
 export const onDeleteUser = /* GraphQL */ `
   subscription OnDeleteUser(
     $filter: ModelSubscriptionUserFilterInput
@@ -60,7 +60,7 @@ export const onDeleteUser = /* GraphQL */ `
       __typename
     }
   }
-`
+`;
 export const onCreateTodo = /* GraphQL */ `
   subscription OnCreateTodo(
     $filter: ModelSubscriptionTodoFilterInput
@@ -86,7 +86,7 @@ export const onCreateTodo = /* GraphQL */ `
       __typename
     }
   }
-`
+`;
 export const onUpdateTodo = /* GraphQL */ `
   subscription OnUpdateTodo(
     $filter: ModelSubscriptionTodoFilterInput
@@ -112,7 +112,7 @@ export const onUpdateTodo = /* GraphQL */ `
       __typename
     }
   }
-`
+`;
 export const onDeleteTodo = /* GraphQL */ `
   subscription OnDeleteTodo(
     $filter: ModelSubscriptionTodoFilterInput
@@ -138,4 +138,4 @@ export const onDeleteTodo = /* GraphQL */ `
       __typename
     }
   }
-`
+`;

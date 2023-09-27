@@ -17,7 +17,7 @@ export const getUser = /* GraphQL */ `
       __typename
     }
   }
-`
+`;
 export const listUsers = /* GraphQL */ `
   query ListUsers(
     $filter: ModelUserFilterInput
@@ -38,14 +38,13 @@ export const listUsers = /* GraphQL */ `
       __typename
     }
   }
-`
+`;
 export const getTodo = /* GraphQL */ `
   query GetTodo($id: ID!) {
     getTodo(id: $id) {
       id
       todoName
       ownerID
-
       sharedWith
       type
       createdAt
@@ -53,7 +52,7 @@ export const getTodo = /* GraphQL */ `
       __typename
     }
   }
-`
+`;
 export const listTodos = /* GraphQL */ `
   query ListTodos(
     $filter: ModelTodoFilterInput
@@ -75,7 +74,7 @@ export const listTodos = /* GraphQL */ `
       __typename
     }
   }
-`
+`;
 export const todosByDate = /* GraphQL */ `
   query TodosByDate(
     $type: String!
@@ -96,9 +95,15 @@ export const todosByDate = /* GraphQL */ `
       items {
         id
         todoName
+        ownerID
+        sharedWith
+        type
+        createdAt
+        updatedAt
+        __typename
       }
       nextToken
       __typename
     }
   }
-`
+`;

@@ -109,7 +109,7 @@ function TodoItem({ index, todo }) {
         to: email,
         subject: 'New Task',
         message: 'Hello, You got a new Task',
-        from: 'tolubalogun94@gmail.com',
+        from: 'balosod37@gmail.com',
       }
       sendEmail(emailData)
 
@@ -128,7 +128,7 @@ function TodoItem({ index, todo }) {
   const sendEmail = async (emailData) => {
     try {
       const response = await fetch(
-        'https://vgh6ghcosikjlttqcg2wpz7trq0dnwly.lambda-url.us-east-1.on.aws/',
+        'https://757m4bnvzwigyhbsf3eedywmci0hassc.lambda-url.us-east-1.on.aws/',
         {
           method: 'POST',
           headers: {

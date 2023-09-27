@@ -47,12 +47,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "todo9254cd59",
+            "todo75cf032a",
             {
               "Fn::Join": [
                 "",
                 [
-                  "todo9254cd59",
+                  "todo75cf032a",
                   "-",
                   {
                     "Ref": "env"
@@ -89,12 +89,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "todoLambdaRole541d5622",
+            "todoLambdaRole1a628dc5",
             {
               "Fn::Join": [
                 "",
                 [
-                  "todoLambdaRole541d5622",
+                  "todoLambdaRole1a628dc5",
                   "-",
                   {
                     "Ref": "env"
